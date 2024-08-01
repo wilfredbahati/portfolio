@@ -157,6 +157,9 @@ h5 {
    {
     grid-column: 3 / 9;
   }
+  #cv-skills-info,ul,li{
+padding-left: 10px;
+  }
   #cv-grid hr {
     grid-column: 1 / 9;
     width: 95%;
@@ -172,10 +175,13 @@ h5 {
   width: 24%;
 }
 #cv-education {
-  padding-left: 20px;
+  
+  padding: 0px 20px;
+  padding-left: 0px;
 }
 .interests {
-  padding-left:10px;
+ 
+  padding: 0px 20px;
 }
 
 /************************/
@@ -239,12 +245,16 @@ h5 {
 }
 
 .div-info {
-  width: 80%;
+  
   display: flex;
-  gap: 30px;
+  
   justify-content: space-around;
-  margin: 20px auto;
+
   align-items: center;
+  gap: 50px;
+
+
+ margin-left:60px;
 }
 
 .info1 {
@@ -256,10 +266,14 @@ h5 {
   height: auto;
   width: 200px;
 }
+.testimonial{
+  margin-left: 60px;
+}
 
 .testimonials {
   display: flex;
   gap: 10px;
+  margin-left: 50px;
 }
 .testimonial1 {
   padding: 4px;
@@ -273,6 +287,7 @@ h5 {
 
 footer {
   background-color: grey;
+  margin-left :60px;
 }
 footer ul {
   display: flex;
