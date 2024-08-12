@@ -1,0 +1,510 @@
+/******************************/
+/* chefMaster*/
+/******************************/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  padding: 20px;
+}
+
+h1 {
+  background-color: #45a049;
+  color: aliceblue;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px orangered;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid goldenrod;
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+  color: blue;
+  
+}
+h3 {
+  text-align: center;
+  background-color: white;
+  padding: 10px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  color: #2c3e50; 
+}
+
+.cuisine-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.cuisine-card:hover {
+  transform: scale(1.05);
+}
+
+.cuisine-image {
+  width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+}
+
+.cuisine-title {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.cuisine-text {
+  font-size: 18px;
+  margin: 15px;
+  color: blue;
+}
+
+.wrapper {
+display: flex;
+/*grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+ flex-wrap:wrap ;*/
+flex-wrap:wrap ;
+gap: 20px;
+margin: 20px;
+padding: 0 20px;
+justify-content: center;
+}
+
+#cuisine-info {
+  margin: 10px 20px;
+}
+
+.flex-cuisine {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cuisine-card {
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: beige;
+  height: auto;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8), 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cuisine-card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cuisine-link {
+  text-decoration: blue;
+  color: #444;
+}
+
+.cuisine-title {
+  text-transform: none;
+  font-style: normal;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.cuisine-text {
+  margin: 10px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 90%;
+  font-family: Arial, sans-serif;
+}
+
+.form-container{
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  width: 60%;
+  margin-left:;
+}
+
+
+.form-question {
+  margin-bottom: 15px;
+}
+
+.form-question label {
+  display:inline;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-question input[type="text"],
+.form-question input[type="email"],
+.form-question input[type="date"],
+.form-question textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.form-question input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.form-question textarea {
+  resize: vertical;
+}
+
+.form-question.required label::after {
+  content: "*";
+  color: red;
+  margin-left: 5px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#button:hover {
+  background-color:blue;
+}
+
+
+#submitButton:hover {
+  background-color:orange; 
+}
+
+.clickButton {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: black; 
+  color: white;
+  padding: 20px; 
+  text-align: center; 
+  font-family: Arial, sans-serif;
+  font-size: 14px; 
+  border-top: 3px solid red; 
+  width: 100%;
+  margin-top: 20px; 
+
+
+}
+
+
+
+/******************************/
+/* African*/
+/******************************/
+body {
+  font-family: 'Arial', sans-serif; 
+  color: #333; 
+  line-height: 1.6; 
+  margin: 20px; /
+}
+
+
+
+p {
+  background-color: white; 
+  padding: 15px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
+  color: #555; 
+}
+
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h3 {
+  color: blue;
+  margin-top: 20px;
+  font-size: 1.5em;
+  height: auto;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.western,
+.eastern,
+.secondi,
+.south,
+.north,
+.central {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.african-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid maroon;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+.african-image {
+  width: 100%;
+  height: auto;
+}
+
+.african-title {
+  color: red;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.african-text {
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.info p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+/******************************/
+/* Italian*/
+/******************************/
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h3 {
+  color: blue;
+  margin-top: 20px;
+  font-size: 1.5em;
+  height: auto;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.appetizers,
+.pasta,
+.secondi,
+
+l {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.italian-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid maroon;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+.italian-image {
+  width: 100%;
+  height: auto;
+}
+
+.italian-title {
+  color: red;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.italian-text {
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.info p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+/******************************/
+/* Chinese*/
+/******************************/
+
+
+h3 {
+  color: blue;
+  margin-top: 20px;
+  font-size: 1.5em;
+  height: auto;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.dim,
+.cantonese,
+.chinese
+ {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.chinese-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid maroon;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+.chinese-image {
+  width: 100%;
+  height: auto;
+}
+
+.chinese-title {
+  color: red;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.chinese-text {
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.info p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+
+/******************************/
+       /* Japanese*/
+/******************************/
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h3 {
+  color: blue;
+  margin-top: 20px;
+  font-size: 1.5em;
+  height: auto;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+
+.japanese-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid maroon;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+.japanese-image {
+  width: 100%;
+  height: auto;
+}
+
+.japanese-title {
+  color: red;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.japanese-text {
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.info p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+

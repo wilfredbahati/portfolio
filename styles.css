@@ -230,18 +230,26 @@ padding-left: 10px;
 /************************/
 /*HOME               */
 /************************/
+h2{
+color: blue;
+
+}
 .div-img{
-  display: flex;
- gap: 50px;
- width: 100%;
- justify-content:end;
- margin:20px;
-  
+ display: flex;
+ margin:0px;
+ justify-content: space-around;
 }
 .wrapper {
-  margin: ;
-  justify-content: ;
+  margin: 0;
+  padding: 0px 20px;
+  justify-content: center;
   display: grid;
+}
+
+/* Styling sections */
+#home-intro, #home-testimonials {
+  margin: 0;
+  padding: 0;
 }
 
 .div-info {
@@ -287,7 +295,8 @@ padding-left: 10px;
 
 footer {
   background-color: grey;
-  margin-left :60px;
+  margin: 0;
+  padding: 20px;
 }
 footer ul {
   display: flex;
@@ -311,7 +320,13 @@ footer ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
   font-weight: bold;
+  height: 100%;
 }
+
+.logo img {
+  height:100%;
+}
+
 .menu-items {
   list-style-type: none;
   display: flex;
@@ -329,3 +344,6 @@ footer ul {
 .menu-items li {
   margin-left: 20px;
 }
+/*****************************/
+  /*Temp converter*/
+/*****************************/
